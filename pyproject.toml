@@ -6,13 +6,16 @@ dependencies = [
   "torchvision",
   "torchaudio",
   "transformers[torch]",
+  "sentence-transformers",
   "ipython",
   "ipykernel",
   "ipywidgets",
   "datasets",
   "evaluate",
   "scikit-learn", 
-  "scipy"
+  "scipy",
+  "requests",
+  "python-dotenv",
 ]
 
 [[tool.uv.index]]
